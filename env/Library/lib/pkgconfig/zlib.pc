@@ -1,0 +1,13 @@
+prefix=D:/File Handling/ML Projects/Movie_Recommendation_Project/env/Library
+exec_prefix=D:/File Handling/ML Projects/Movie_Recommendation_Project/env/Library
+libdir=D:/File Handling/ML Projects/Movie_Recommendation_Project/env/Library/lib
+sharedlibdir=D:/File Handling/ML Projects/Movie_Recommendation_Project/env/Library/lib
+includedir=D:/File Handling/ML Projects/Movie_Recommendation_Project/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
